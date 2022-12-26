@@ -1,0 +1,25 @@
+
+> my-website@0.0.0 serve
+> docusaurus serve --host 0.0.0.0
+
+[SUCCESS] Serving "build" directory at: http://0.0.0.0:3000/
+
+> my-website@0.0.0 serve
+> docusaurus serve --host 0.0.0.0 --nohup
+
+error: unknown option '--nohup'
+
+> my-website@0.0.0 serve
+> docusaurus serve --host 0.0.0.0 --no-hup
+
+error: unknown option '--no-hup'
+
+> my-website@0.0.0 serve
+> docusaurus serve --host 0.0.0.0
+
+[SUCCESS] Serving "build" directory at: http://0.0.0.0:3000/
+
+> my-website@0.0.0 serve
+> docusaurus serve --host 0.0.0.0
+
+[SUCCESS] Serving "build" directory at: http://0.0.0.0:3000/

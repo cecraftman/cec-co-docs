@@ -79,10 +79,10 @@ const config = {
         // externalUrlRegex: 'external\\.com|domain\\.com',
   
         // // 可选：Algolia 搜索参数
-        // searchParameters: {},
+        searchParameters: {},
   
         // // 可选：搜索页面的路径，默认启用（可以用 `false` 禁用）
-        // searchPagePath: 'search',
+        searchPagePath: 'search',
   
         // ……其他 Algolia 参数
       },

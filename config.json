@@ -1,8 +1,8 @@
 {
     "index_name": "co.cec.cc-index",
-    "start_urls": ["https://github.com/kuanghaowei/CloudOfficeDocument/"],
+    "start_urls": ["https://cecraftman.github.io/cec-co-docs/"],
     "sitemap_urls": [
-      "https://weiyun0912.github.io/Docusaurus-Demo-Algolia/sitemap.xml"
+      "https://cecraftman.github.io/cec-co-docs/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": ["/tests"],

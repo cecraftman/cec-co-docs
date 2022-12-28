@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://cecraftman.github.io/cec-co-docs',
-  baseUrl: '/',
+  url: 'https://cecraftman.github.io',
+  baseUrl: '/cec-co-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cecraftman', // Usually your GitHub org/user name.
   projectName: 'cec-co-docs', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  // deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -72,7 +73,7 @@ const config = {
         indexName: 'co.cec.cc-index',
   
         // // 可选：见下文
-        // contextualSearch: true,
+        contextualSearch: true,
   
         // // 可选：声明哪些域名需要用 window.location 型的导航而不是 history.push。 适用于 Algolia 配置会爬取多个文档站点，而我们想要用 window.location.href 在它们之间跳转时。
         // externalUrlRegex: 'external\\.com|domain\\.com',
